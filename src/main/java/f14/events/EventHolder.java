@@ -41,7 +41,7 @@ public class EventHolder<T extends IEventHandler> {
             handler.handle(arg);
         } catch (Exception e) {
             if (errorHandler != null) {
-                errorHandler.Invoke(e);
+                errorHandler.run(e);
             }
             return false;
         }

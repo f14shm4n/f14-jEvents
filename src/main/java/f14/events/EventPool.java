@@ -1,6 +1,6 @@
 package f14.events;
 
-import f14.common.collections.CollectionsUtil;
+import f14.common.CollectionsUtil;
 
 import java.util.ArrayList;
 import java.util.List;
